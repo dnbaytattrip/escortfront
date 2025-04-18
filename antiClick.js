@@ -27,7 +27,6 @@ function getQueryParam(param) {
 }
 
 // Get user ID from URL
-const userId = getQueryParam('userid');
 
 
 const urlParams = new URLSearchParams(window.location.search);
